@@ -1,10 +1,13 @@
+import TestLayout from "../layouts/TestLayout";
 import BasicLayout from "../layouts/BasicLayout";
+
 
 const MainPage = () => {
 
-    console.log("--------------- MAIN ---------------")
+    //console.log("--------------- MAIN ---------------")
 
     return ( 
+
         <BasicLayout>
             <h2>MAIN PAGE</h2>
             <div className="overflow-hidden">
